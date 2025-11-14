@@ -54,7 +54,7 @@ plt.axis('off')
 plt.show()
 
 # ----------- TRUE CONSECUTIVE-FRAME MOTION -----------
-# simulate temporal shift: frame2 = hr shifted by 1 pixel
+# simulate temporal shift: frame2 = HR shifted by 1 pixel
 frame2 = np.roll(hr, shift=1, axis=0)  # vertical motion example
 
 motion = np.abs(frame2 - hr).mean(axis=2)
