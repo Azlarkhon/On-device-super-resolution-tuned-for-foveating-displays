@@ -12,7 +12,7 @@ PATCH_LR = 128
 PATCH_HR = PATCH_LR * SCALE
 
 
-def load_model(weights_path="baseline_sr.pth"):
+def load_model(weights_path="baseline_sr_3050ti_final.pth"):
     model = BaselineEDSRSmall(scale=SCALE).to(DEVICE)
     state = torch.load(weights_path, map_location=DEVICE)
     model.load_state_dict(state)
