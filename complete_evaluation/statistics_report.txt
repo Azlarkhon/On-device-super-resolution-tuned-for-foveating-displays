@@ -1,0 +1,46 @@
+======================================================================
+RCAN SUPER-RESOLUTION - COMPLETE EVALUATION REPORT
+======================================================================
+
+Total Images Evaluated: 100
+Evaluation Date: 2025-12-05 11:35:42
+Device: cuda
+
+----------------------------------------------------------------------
+PSNR STATISTICS (dB)
+----------------------------------------------------------------------
+Mean ± Std: 32.11 ± 5.32
+Range: [19.36, 46.20]
+
+PSNR Quality Categories:
+  Excellent (>40 dB): 10 images
+  Good (30-40 dB): 53 images
+  Acceptable (20-30 dB): 36 images
+  Poor (<20 dB): 1 images
+
+----------------------------------------------------------------------
+SSIM STATISTICS
+----------------------------------------------------------------------
+Mean ± Std: 0.9869 ± 0.0142
+Range: [0.9236, 0.9997]
+
+SSIM Quality Categories:
+  Excellent (>0.95): 97 images
+  Good (0.90-0.95): 3 images
+  Acceptable (0.80-0.90): 0 images
+  Poor (<0.80): 0 images
+
+----------------------------------------------------------------------
+INTERPRETATION GUIDE
+----------------------------------------------------------------------
+PSNR (dB):
+  >40: Near perfect (indistinguishable from original)
+  30-40: Good quality (minor artifacts)
+  20-30: Acceptable (visible but not distracting)
+  <20: Poor (significant quality loss)
+
+SSIM (0-1):
+  0.95-1.00: Excellent structural similarity
+  0.90-0.95: Good structural preservation
+  0.80-0.90: Moderate structural similarity
+  <0.80: Poor structural preservation
