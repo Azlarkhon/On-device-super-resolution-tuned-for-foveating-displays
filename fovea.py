@@ -14,7 +14,7 @@ from model import RCAN
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 SCALE = 2          # RCAN upscale factor
-PATCH_LR = 256     # LR patch size fed to RCAN
+PATCH_LR = 128     # LR patch size fed to RCAN
 PATCH_HR = PATCH_LR * SCALE  # 256
 
 # Fovea point in normalized coords [0, 1]
@@ -201,7 +201,7 @@ if __name__ == "__main__":
     if not names:
         raise RuntimeError("No images in LR")
 
-    index = 1  # choose your image index
+    index = 8  # choose your image index
     img_name = names[index]
     lr_path = os.path.join(lr_dir, img_name)
 
