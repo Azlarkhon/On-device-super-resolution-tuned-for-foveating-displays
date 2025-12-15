@@ -3,8 +3,8 @@ RCAN SUPER-RESOLUTION - COMPLETE EVALUATION REPORT
 ======================================================================
 
 Total Images Evaluated: 100
-Evaluation Date: 2025-12-09 12:40:11
-Device: cpu
+Evaluation Date: 2025-12-11 11:19:00
+Device: cuda
 
 ----------------------------------------------------------------------
 PSNR STATISTICS (dB)
